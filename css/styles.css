@@ -178,6 +178,9 @@ nav div {
 .icon{
     width: 10%;
 }
+.icon img {
+    width: 50px;
+}
 nav div ul li{
     padding: 5%;
     list-style: none;
