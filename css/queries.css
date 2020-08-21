@@ -1,0 +1,184 @@
+@media screen and (max-width: 950px) {
+
+    .snippets-items-description div {
+        margin-top: 0;
+    }
+
+    .snippets-items-description .search h3 {
+        margin-top: 0;
+    }
+
+    .logos .google {
+        width: 128px;
+        height: 38px;
+    }
+
+    .logos .ibm {
+        width: 120px;
+        height: 42px;
+    }
+
+    .logos .microsoft {
+        width: 146px;
+        height: 26px;
+    }
+
+    .logos .hp {
+        width: 125px;
+        height: 50px;
+    }
+
+    .logos .vector {
+        width: 115px;
+        height: 25px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    body {
+        max-width: 750px;
+    }
+
+    header h1 {
+        width: 328px;
+        margin: 0 auto;
+
+    }
+
+    header p {
+        width: 310px;
+        margin: 16px auto;
+    }
+
+    .button-container {
+        display: grid;
+    }
+
+    .button-container .ios, .mac {
+        margin: 15px 8px;
+        width: 200px;
+    }
+
+    .snippets {
+        width: 328px;
+        margin: 0 auto;
+        margin-top: 231px;
+    }
+
+    .snippets-items {
+        display: initial;
+    }
+    
+    .snippets-items-image {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .snippets-items-image img {
+        width: 100%;
+    }
+
+    .snippets-items-description {
+        margin: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .snippets-items-description div {
+        margin: 0 auto;
+    }
+
+    .access {
+        width: 328px;
+        margin: 0 auto;
+        margin-top: 120px;
+    }
+
+    .access .image-container {
+        margin-top: 50px;
+    }
+
+    .access .image-container img {
+        width: 100%;
+    }
+
+    .workflow {
+        width: 328px;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    .workflow p {
+        margin-bottom: 100px;
+    }
+
+    .workflow .container {
+        width: 100%;
+        display: initial;
+    }
+
+    .workflow .container .item {
+        width: 90%;
+        margin: 35px auto;
+    }
+
+    .logos {
+        height: 480px;
+        margin: 90px auto;
+        display: grid;
+        gap: 60px;        
+    }
+
+    .clipboard {
+        width: 328px;
+        height: 400px;
+        margin: 30px auto;
+    }
+
+    .clipboard h2, p {
+        padding: 0 20px;
+    }
+
+    footer {
+        display: block;
+        width: 375px;
+        height: 500px;
+        margin: 30px auto 0;
+    }
+
+    footer .icon {
+        margin: 20px auto;
+    }
+    footer nav {
+        display: initial;
+    }
+
+    footer nav div {
+        width: 100%;
+    }
+
+    footer div ul {
+        padding: 0;
+        text-align: center;
+        margin: 0;
+    }
+
+    footer div ul li {
+        padding-bottom: 0 0 10px 0;
+    }
+
+    footer .install ul li {
+        padding-top: 33px;
+    }
+
+    footer .social {
+        width: 328px;
+        margin: 60px auto;
+        justify-content: space-evenly;
+    }
+}
